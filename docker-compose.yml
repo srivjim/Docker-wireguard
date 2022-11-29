@@ -15,7 +15,7 @@ services:
       - PEERDNS=auto #optional
       - ALLOWEDIPS=0.0.0.0/0 #Peer addresses allowed
       - INTERNAL_SUBNET=10.13.13.0/24 #Subnet used in VPN tunnel
-      - SERVERURL=54.36.182.237 #Wireguard VPN server address
+      - SERVERURL=54.36.180.124 #Wireguard VPN server address
     volumes:
       - /opt/wireguard-server/config:/config
       - /usr/src:/usr/src # location of kernel headers
